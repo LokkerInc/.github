@@ -1,0 +1,33 @@
+name: Feature
+description: A new feature or capability to be added to the product
+title: "[FEATURE] "
+type: "Feature"
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: Describe the feature and the problem it solves.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      placeholder: "Given [some context or precondition]\nWhen  [some action is taken]\nThen  [some outcome is expected]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Out of scope
+      description: Explicitly list anything that will NOT be addressed in this feature.
+      placeholder: "1. ...\n2. ...\n3. ..."
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Screenshots, links to wireframes or designs, etc.

@@ -1,0 +1,34 @@
+name: Spike
+description: Time-boxed research or investigation to reduce uncertainty
+title: "[SPIKE] "
+type: "Spike"
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear description of what is being investigated.
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Why is this spike needed? What uncertainty, risk, or blocker is it addressing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: Question(s) to answer
+      placeholder: "1. ...\n2. ...\n3. ..."
+
+  - type: input
+    id: deliverable
+    attributes:
+      label: Deliverable
+      description: "What will be produced at the end of this spike? (e.g. findings doc, prototype, recommendation)"
+    validations:
+      required: true

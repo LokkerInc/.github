@@ -1,0 +1,37 @@
+name: Tech Debt
+description: Known shortcuts, outdated patterns, or code quality issues that need to be addressed
+title: "[TECH DEBT] "
+type: "Tech Debt"
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear description of the debt being addressed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_state
+    attributes:
+      label: Current state
+      description: "Describe the existing implementation and why it is problematic (e.g. fragile, hard to maintain, blocks future work, security concern)."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact of not addressing
+      options:
+        - label: Reliability / stability concern
+        - label: Performance degradation
+        - label: Hard to maintain / fragile
+        - label: Blocks future work
+        - label: Security risk
+
+  - type: textarea
+    id: work_to_be_done
+    attributes:
+      label: Work to be done
+      placeholder: "1. ...\n2. ...\n3. ..."

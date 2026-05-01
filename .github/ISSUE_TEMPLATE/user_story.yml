@@ -1,0 +1,34 @@
+name: User Story
+description: A new feature or capability described from the user's perspective
+title: "[STORY] "
+type: "Feature"
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: Describe the feature or capability from the user's perspective and the problem it solves.
+      placeholder: "As a [type of user], I want [some goal or capability], so that [some reason or benefit]."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      placeholder: "Given [some context or precondition]\nWhen  [some action is taken]\nThen  [some outcome is expected]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Out of scope
+      description: Explicitly list anything that will NOT be addressed with this story.
+      placeholder: "1. ...\n2. ...\n3. ..."
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Screenshots, links to wireframes or designs, etc.

@@ -1,0 +1,24 @@
+name: Task
+description: A discrete unit of work to be completed
+title: "[TASK] "
+type: "Task"
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear description of what needs to be done.
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Any additional context, background, or technical notes needed to complete this task.
+
+  - type: textarea
+    id: work_to_be_done
+    attributes:
+      label: Work to be done
+      placeholder: "1. ...\n2. ...\n3. ..."

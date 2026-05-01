@@ -1,0 +1,38 @@
+name: Epic
+description: A large body of work made up of multiple stories or tasks
+title: "[EPIC] "
+type: "Epic"
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: A high-level description of this epic, the problem it addresses, and the value it delivers.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: stakeholders
+    attributes:
+      label: Stakeholders
+      options:
+        - label: Marketing
+        - label: Product
+        - label: Engineering
+        - label: Sales
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      description: What outcomes or objectives should this epic achieve?
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Out of scope
+      description: Explicitly list anything that will NOT be addressed in this epic.
+      placeholder: "1. ...\n2. ...\n3. ..."

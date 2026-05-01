@@ -1,37 +1,32 @@
 ---
 name: Epic
-about: "An Epic consisting of multiple user stories "
-title: "[EPIC]"
-labels: "✨ Epic"
-assignees: ""
+about: A large body of work made up of multiple stories or tasks
+title: "[EPIC] "
+labels: epic
 ---
 
-## ✨ Epic
+## 🗺️ [Epic Name]
 
-#### Who is asking?
+### Overview
 
+A high-level description of this epic, the problem it addresses, and the value it delivers.
+
+### Stakeholders
 - [ ] Marketing
 - [ ] Product
 - [ ] Engineering
 - [ ] Sales
 
-#### Is this a customer request?
+### Goals
+- ...
 
-- [ ] yes, with **\_**
+### Out Of Scope
+- ...
 
-#### Which persona(s) are we adressing?
+### Definition of Done
+- [ ] ...
 
-#### What's the benefit?
+---
 
-#### Additional Notes
-
-<!--- Also provide screenshots, links to wireframes or designs (Figma, Zeplin, …) -->
-
-```[tasklist]
-## Related Tasks
-- [ ] add your tasks here
-```
-
-### ✅ Acceptance Criteria
-
-- [ ] …
+### Additional Notes
+Screenshots, links to wireframes or designs, etc.

@@ -1,0 +1,32 @@
+name: UAT
+description: User acceptance test cases for a feature or story
+title: "[UAT] "
+type: "UAT"
+body:
+  - type: markdown
+    attributes:
+      value: "## ✅ UAT"
+
+  - type: textarea
+    id: items_to_test
+    attributes:
+      label: Item(s) to Test
+      placeholder: "- ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: Describe what this UAT session is validating and what a passing result looks like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      placeholder: "Given [some context or precondition]\nWhen  [some action is taken]\nThen  [some outcome is expected]"
+    validations:
+      required: true

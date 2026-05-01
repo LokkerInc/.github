@@ -1,0 +1,38 @@
+name: Task
+description: A discrete unit of work to be completed
+title: "[TASK] "
+type: "Task"
+body:
+  - type: markdown
+    attributes:
+      value: "## 📋 Task"
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear description of what needs to be done.
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Any additional context, background, or technical notes needed to complete this task.
+
+  - type: textarea
+    id: work_to_be_done
+    attributes:
+      label: Work to be Done
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition_of_done
+    attributes:
+      label: Definition of Done
+      placeholder: "- [ ] ..."
+    validations:
+      required: true

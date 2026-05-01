@@ -1,0 +1,40 @@
+name: Chore
+description: Maintenance, refactoring, or housekeeping work
+title: "[CHORE] "
+type: "Chore"
+body:
+  - type: markdown
+    attributes:
+      value: "## 🔧 Chore"
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear description of the refactoring or maintenance work.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this chore necessary? What problem does it solve or prevent?
+    validations:
+      required: true
+
+  - type: textarea
+    id: work_to_be_done
+    attributes:
+      label: Work to be Done
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition_of_done
+    attributes:
+      label: Definition of Done
+      placeholder: "- [ ] ..."
+    validations:
+      required: true

@@ -2,6 +2,8 @@ name: Spike
 description: Time-boxed research or investigation to reduce uncertainty
 title: "[SPIKE] "
 type: "Spike"
+projects:
+  - LokkerInc/16
 body:
   - type: input
     id: summary

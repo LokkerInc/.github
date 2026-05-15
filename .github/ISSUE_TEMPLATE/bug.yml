@@ -2,6 +2,8 @@ name: Bug
 description: Report something that is broken or not behaving as expected
 title: "[BUG] "
 type: "Bug"
+projects:
+  - LokkerInc/16
 body:
   - type: input
     id: summary

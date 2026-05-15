@@ -2,6 +2,8 @@ name: User Story
 description: A new feature or capability described from the user's perspective
 title: "[STORY] "
 type: "Feature"
+projects:
+  - LokkerInc/16
 body:
   - type: textarea
     id: overview

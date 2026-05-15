@@ -2,6 +2,8 @@ name: UAT
 description: User acceptance test cases for a feature or story
 title: "[UAT] "
 type: "UAT"
+projects:
+  - LokkerInc/16
 body:
   - type: textarea
     id: items_to_test

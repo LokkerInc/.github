@@ -2,6 +2,8 @@ name: Feature
 description: A new feature or capability to be added to the product
 title: "[FEATURE] "
 type: "Feature"
+projects:
+  - LokkerInc/16
 body:
   - type: textarea
     id: overview

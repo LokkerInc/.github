@@ -2,6 +2,8 @@ name: Tech Debt
 description: Known shortcuts, outdated patterns, or code quality issues that need to be addressed
 title: "[TECH DEBT] "
 type: "Tech Debt"
+projects:
+  - LokkerInc/16
 body:
   - type: input
     id: summary

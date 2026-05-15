@@ -2,6 +2,8 @@ name: Chore
 description: Maintenance, refactoring, or housekeeping work
 title: "[CHORE] "
 type: "Chore"
+projects:
+  - LokkerInc/16
 body:
   - type: input
     id: summary

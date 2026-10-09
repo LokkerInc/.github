@@ -1,8 +1,9 @@
 # Engineering work is tracked in Linear, not GitHub Issues.
 #
 # This file replaces the nine issue forms that used to sit beside it. With
-# blank issues disabled and no templates left, the New Issue page offers the
-# link below and nothing else.
+# blank issues disabled and no templates left, people with read or triage
+# access see only the link below. Anyone with write access still gets a
+# "Blank issue" option, which GitHub always offers to maintainers.
 #
 # Pull requests are unaffected and still belong here. Link one to its issue
 # by putting "Fixes ENG-123" in the description.

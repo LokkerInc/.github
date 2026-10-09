@@ -8,7 +8,7 @@ This repository contains **organization-wide default community health files** fo
 
 | File | Purpose |
 |------|---------|
-| `ISSUE_TEMPLATE/config.yml` | Turns off blank issues and points the New Issue page to where issues are raised |
+| `ISSUE_TEMPLATE/config.yml` | Points the New Issue page to where issues are raised |
 
 Files here apply automatically to any repository in the org that doesn't have its own copy.
 
